@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "new-api",
+      "commit": "1e826339eb7d083e7d94e434e073db5337fa2dfd",
+      "dirty": true,
+      "snapshot": "5fdb5b5d23a471db54ceea349defacc1fed42249a427ea707f21862be157648b",
+      "fileCount": 2719,
+      "lineCount": 808957,
+      "reviewedFileCount": 9,
+      "files": [
+        {
+          "path": "controller/relay.go",
+          "sha256": "ebce879d61aba2e8c49599bac02d4cfd7898f721fb31236cb999fffc6f16fd75",
+          "bytes": 33527,
+          "lines": 873,
+          "analysisStatus": "excerpt-reviewed"
+        },
+        {
+          "path": "controller/token.go",
+          "sha256": "daef4343ed8234f5fe8a6c16849794f04d6fa5c234dbba807fef9e0f2d5a073f",
+          "bytes": 16445,
+          "lines": 578,
+          "analysisStatus": "excerpt-reviewed"
+        },
+        {
+          "path": "model/token.go",
+          "sha256": "2883125c0adfb123c89a56cee77f6172dacdb736b51c94b662d5061a2fe3c205",
+          "bytes": 15823,
+          "lines": 518,
+          "analysisStatus": "excerpt-reviewed"
+        },
+        {
+          "path": "router/api-router.go",
+          "sha256": "687495ff5756b96daf9c095c317aac2b41bf68531dcb4d348a345bf1775378b0",
+          "bytes": 28753,
+          "lines": 461,
+          "analysisStatus": "excerpt-reviewed"
+        },
+        {
+          "path": "web/package.json",
+          "sha256": "2ffc6f02fc98042efe800c6f99c2c2c067076cc4243091cc48392a414d4746dd",
+          "bytes": 5187,
+          "lines": 149,
+          "analysisStatus": "excerpt-reviewed"
+        },
+        {
+          "path": "web/src/features/keys/components/api-keys-mutate-drawer.tsx",
+          "sha256": "cb53b912ac4a90805daa72f8e8afd41035e32985baa790feb5e6130a90468161",
+          "bytes": 28526,
+          "lines": 799,
+          "analysisStatus": "excerpt-reviewed"
+        },
+        {
+          "path": "web/src/features/keys/components/api-keys-table.tsx",
+          "sha256": "bf570d28d2b1d43b951005a85e8a1f50c03c71ba8bed210f5989423b74c4540d",
+          "bytes": 11773,
+          "lines": 383,
+          "analysisStatus": "excerpt-reviewed"
+        },
+        {
+          "path": "web/src/lib/http-client.ts",
+          "sha256": "40031b5450c424fc20e1fe3b54c933bb65b5ca5ee654fa06a627fa1264f4985c",
+          "bytes": 5090,
+          "lines": 166,
+          "analysisStatus": "excerpt-reviewed"
+        }
+      ],
+      "publishedInventoryScope": "仅公开课程证据文件；完整清单留存本地。"
+    },
+    {
+      "id": "openfox-release",
+      "commit": null,
+      "dirty": false,
+      "snapshot": "123e91eea11b3785430ef9f7e0373026ccfc897f83478b1a249df1edf1e062c3",
+      "fileCount": 2432,
+      "lineCount": 605315,
+      "reviewedFileCount": 1,
+      "files": [
+        {
+          "path": "controller/token.go",
+          "sha256": "daef4343ed8234f5fe8a6c16849794f04d6fa5c234dbba807fef9e0f2d5a073f",
+          "bytes": 16445,
+          "lines": 578,
+          "analysisStatus": "excerpt-reviewed"
+        }
+      ],
+      "publishedInventoryScope": "仅公开课程证据文件；完整清单留存本地。"
+    },
+    {
+      "id": "openfox-followup",
+      "commit": null,
+      "dirty": false,
+      "snapshot": "7382166839bc88751e57aeef775843bbee8a92b82911460034e54feb5c072eeb",
+      "fileCount": 2703,
+      "lineCount": 810659,
+      "reviewedFileCount": 1,
+      "files": [
+        {
+          "path": "controller/token.go",
+          "sha256": "daef4343ed8234f5fe8a6c16849794f04d6fa5c234dbba807fef9e0f2d5a073f",
+          "bytes": 16445,
+          "lines": 578,
+          "analysisStatus": "excerpt-reviewed"
+        }
+      ],
+      "publishedInventoryScope": "仅公开课程证据文件；完整清单留存本地。"
+    },
+    {
+      "id": "openfox-model-admin",
+      "commit": null,
+      "dirty": false,
+      "snapshot": "d2b909221444970ea4a86a6b80f98bcca2b6526668633ba002d7cc575e212c60",
+      "fileCount": 2464,
+      "lineCount": 632920,
+      "reviewedFileCount": 1,
+      "files": [
+        {
+          "path": "controller/token.go",
+          "sha256": "daef4343ed8234f5fe8a6c16849794f04d6fa5c234dbba807fef9e0f2d5a073f",
+          "bytes": 16445,
+          "lines": 578,
+          "analysisStatus": "excerpt-reviewed"
+        }
+      ],
+      "publishedInventoryScope": "仅公开课程证据文件；完整清单留存本地。"
+    },
+    {
+      "id": "openfox-tags",
+      "commit": null,
+      "dirty": false,
+      "snapshot": "53f7fe9acf5ba71da37c95cee3a593e1e085901ae7e19a26ef5aa620e477e9ff",
+      "fileCount": 2704,
+      "lineCount": 810907,
+      "reviewedFileCount": 1,
+      "files": [
+        {
+          "path": "controller/token.go",
+          "sha256": "daef4343ed8234f5fe8a6c16849794f04d6fa5c234dbba807fef9e0f2d5a073f",
+          "bytes": 16445,
+          "lines": 578,
+          "analysisStatus": "excerpt-reviewed"
+        }
+      ],
+      "publishedInventoryScope": "仅公开课程证据文件；完整清单留存本地。"
+    },
+    {
+      "id": "openfox-replica",
+      "commit": null,
+      "dirty": false,
+      "snapshot": "2e3adea7c03e7f0a27aa2b4b59512fd38086c360d9e6953bd47695e8d78df464",
+      "fileCount": 2702,
+      "lineCount": 810550,
+      "reviewedFileCount": 1,
+      "files": [
+        {
+          "path": "controller/token.go",
+          "sha256": "daef4343ed8234f5fe8a6c16849794f04d6fa5c234dbba807fef9e0f2d5a073f",
+          "bytes": 16445,
+          "lines": 578,
+          "analysisStatus": "excerpt-reviewed"
+        }
+      ],
+      "publishedInventoryScope": "仅公开课程证据文件；完整清单留存本地。"
+    },
+    {
+      "id": "openfox-image-release",
+      "commit": null,
+      "dirty": false,
+      "snapshot": "8df0462f68e7644419520d555ee9562187c8b0604c303f561288023eb197c11a",
+      "fileCount": 2444,
+      "lineCount": 604628,
+      "reviewedFileCount": 1,
+      "files": [
+        {
+          "path": "controller/token.go",
+          "sha256": "daef4343ed8234f5fe8a6c16849794f04d6fa5c234dbba807fef9e0f2d5a073f",
+          "bytes": 16445,
+          "lines": 578,
+          "analysisStatus": "excerpt-reviewed"
+        }
+      ],
+      "publishedInventoryScope": "仅公开课程证据文件；完整清单留存本地。"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "new-api",
+    "title": "new-api / OpenFox API · 控制台与模型网关",
+    "description": "从令牌管理追踪 React、Gin、GORM 与数据库，并区分控制台认证和模型调用。",
+    "tags": [
+      "Go",
+      "React",
+      "Gin",
+      "GORM",
+      "API网关"
+    ],
+    "sourceIds": [
+      "new-api",
+      "openfox-release",
+      "openfox-followup",
+      "openfox-model-admin",
+      "openfox-tags",
+      "openfox-replica",
+      "openfox-image-release"
+    ],
+    "status": "核心链路已分析；扩展模块未穷尽",
+    "tutorialVersion": "2026.11.07.1",
+    "owner": "agent-authored",
+    "chapters": [
+      {
+        "id": "index",
+        "title": "00 · 先分清两类令牌",
+        "path": "courses/new-api/index",
+        "objective": "解释控制台管理与模型转发的不同入口，沿三条流程找到源码。"
+      },
+      {
+        "id": "start",
+        "title": "01 · 环境与可控启动",
+        "path": "courses/new-api/start",
+        "objective": "准备不会接触生产数据的副本，解释构建与启动失败的原因。"
+      },
+      {
+        "id": "architecture",
+        "title": "02 · 从页面到数据库的模块边界",
+        "path": "courses/new-api/architecture",
+        "objective": "解释每层输入输出和令牌数据生命周期。"
+      },
+      {
+        "id": "flows",
+        "title": "03 · 三条可逐步核对的真实流程",
+        "path": "courses/new-api/flows",
+        "objective": "追踪查询、创建、删除的请求参数、认证、状态码和页面反馈。"
+      },
+      {
+        "id": "code",
+        "title": "04 · 精读校验、密钥与失败分支",
+        "path": "courses/new-api/code",
+        "objective": "说明修改校验或错误处理会影响哪些层。"
+      },
+      {
+        "id": "security",
+        "title": "05 · 安全、工程实践与边界实验",
+        "path": "courses/new-api/security",
+        "objective": "完成一个可验证的输入边界实验，并识别仍需审计的保护。"
+      },
+      {
+        "id": "versions",
+        "title": "06 · 同项目的版本差异",
+        "path": "courses/new-api/versions",
+        "objective": "知道共享课程适用到哪些版本，避免跨版本照抄接口契约。"
+      }
+    ],
+    "modules": [
+      "web · 令牌页面与请求封装",
+      "router · 身份验证和路由",
+      "controller · 校验与业务响应",
+      "model · 用户范围内的令牌读写"
+    ],
+    "flows": [
+      "分页查看令牌",
+      "创建令牌",
+      "删除令牌"
+    ],
+    "exercises": [
+      "令牌名称长度边界与所有权测试"
+    ],
+    "unreviewed": "全部渠道适配、支付/账务、插件执行、Redis 缓存失效与生产部署未穷尽；未启动网关。",
+    "runtimeValidation": "参考命令已核对；完整运行未验证",
+    "entry": "main.go / web/src",
+    "moduleRecords": [
+      {
+        "id": "new-api-module-1",
+        "name": "web · 令牌页面与请求封装",
+        "analysisStatus": "core-path"
+      },
+      {
+        "id": "new-api-module-2",
+        "name": "router · 身份验证和路由",
+        "analysisStatus": "core-path"
+      },
+      {
+        "id": "new-api-module-3",
+        "name": "controller · 校验与业务响应",
+        "analysisStatus": "core-path"
+      },
+      {
+        "id": "new-api-module-4",
+        "name": "model · 用户范围内的令牌读写",
+        "analysisStatus": "core-path"
+      }
+    ],
+    "flowRecords": [
+      {
+        "id": "new-api-flow-1",
+        "name": "分页查看令牌",
+        "chapter": "courses/new-api/flows"
+      },
+      {
+        "id": "new-api-flow-2",
+        "name": "创建令牌",
+        "chapter": "courses/new-api/flows"
+      },
+      {
+        "id": "new-api-flow-3",
+        "name": "删除令牌",
+        "chapter": "courses/new-api/flows"
+      }
+    ],
+    "exerciseRecords": [
+      {
+        "id": "new-api-exercise-1",
+        "name": "令牌名称长度边界与所有权测试",
+        "status": "instructions-provided"
+      }
+    ]
+  }
+]

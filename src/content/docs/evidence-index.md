@@ -1,0 +1,23 @@
+---
+title: "本项目源码证据"
+---
+
+- [tokenRoute · router/api-router.go:301–314](../evidence/new-api-routes/)
+- [AddToken · controller/token.go:299–380](../evidence/new-api-create/)
+- [AddToken · cleanToken · controller/token.go:353–380](../evidence/new-api-create-return/)
+- [GetAllTokens · controller/token.go:132–144](../evidence/new-api-list/)
+- [DeleteToken · controller/token.go:383–402](../evidence/new-api-delete/)
+- [GetTokenByIds · model/token.go:262–269](../evidence/new-api-ownership/)
+- [scripts / dependencies · web/package.json:1–35](../evidence/new-api-manifest/)
+- [useQuery · web/src/features/keys/components/api-keys-table.tsx:264–303](../evidence/new-api-front/)
+- [createApiKey loop · web/src/features/keys/components/api-keys-mutate-drawer.tsx:307–341](../evidence/new-api-modal/)
+- [handleDelete · web/src/features/keys/components/api-keys-delete-dialog.tsx:44–61](../evidence/new-api-remove-ui/)
+- [api / inFlightGet · web/src/lib/http-client.ts:51–78](../evidence/new-api-client/)
+- [Relay · deferred error / GetAndValidateRequest · controller/relay.go:100–150](../evidence/new-api-relay/)
+- [PrepareRequestBilling / RefundFailedRequestBilling · controller/relay.go:165–180](../evidence/new-api-billing/)
+- [AddToken response · controller/token.go:366–381](../evidence/openfox-release-create-response/)
+- [AddToken response · controller/token.go:366–381](../evidence/openfox-followup-create-response/)
+- [AddToken response · controller/token.go:366–381](../evidence/openfox-model-admin-create-response/)
+- [AddToken response · controller/token.go:366–381](../evidence/openfox-tags-create-response/)
+- [AddToken response · controller/token.go:366–381](../evidence/openfox-replica-create-response/)
+- [AddToken response · controller/token.go:366–381](../evidence/openfox-image-release-create-response/)

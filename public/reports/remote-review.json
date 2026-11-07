@@ -1,0 +1,79 @@
+{
+  "id": "new-api",
+  "repository": "AiW520/openfox-API",
+  "remoteCommit": "1e826339eb7d083e7d94e434e073db5337fa2dfd",
+  "branches": [
+    "codex/tooflow-media-adapter",
+    "dependabot/bun/web/ai-7.0.154",
+    "dependabot/bun/web/lucide-react-1.62.0",
+    "dependabot/bun/web/tanstack/react-router-devtools-1.167.2",
+    "dependabot/bun/web/tanstack/router-plugin-1.168.48",
+    "dependabot/bun/web/yaml-2.9.1",
+    "main"
+  ],
+  "existingSiteFiles": [
+    ".github/workflows/ci.yml",
+    ".github/workflows/docker-build.yml",
+    ".github/workflows/docker-image-branch.yml",
+    ".github/workflows/electron-build.yml",
+    ".github/workflows/release.yml",
+    ".github/workflows/sync-release-to-gitcode.yml"
+  ],
+  "files": [
+    {
+      "path": "router/api-router.go",
+      "status": "local-difference",
+      "localSha256": "687495ff5756b96daf9c095c317aac2b41bf68531dcb4d348a345bf1775378b0",
+      "remoteSha256": "0366c92920c57330bc6d609a07674e48276ecceaaa23d439e9fe53e363a51aba"
+    },
+    {
+      "path": "controller/token.go",
+      "status": "matches-remote",
+      "localSha256": "daef4343ed8234f5fe8a6c16849794f04d6fa5c234dbba807fef9e0f2d5a073f",
+      "remoteSha256": "daef4343ed8234f5fe8a6c16849794f04d6fa5c234dbba807fef9e0f2d5a073f"
+    },
+    {
+      "path": "model/token.go",
+      "status": "matches-remote",
+      "localSha256": "2883125c0adfb123c89a56cee77f6172dacdb736b51c94b662d5061a2fe3c205",
+      "remoteSha256": "2883125c0adfb123c89a56cee77f6172dacdb736b51c94b662d5061a2fe3c205"
+    },
+    {
+      "path": "web/package.json",
+      "status": "local-difference",
+      "localSha256": "2ffc6f02fc98042efe800c6f99c2c2c067076cc4243091cc48392a414d4746dd",
+      "remoteSha256": "ffc1244ffa4560dbbe83ac3e39cf47399ac8cb7610b190311e6ec7f33f8bd056"
+    },
+    {
+      "path": "web/src/features/keys/components/api-keys-table.tsx",
+      "status": "matches-remote",
+      "localSha256": "bf570d28d2b1d43b951005a85e8a1f50c03c71ba8bed210f5989423b74c4540d",
+      "remoteSha256": "bf570d28d2b1d43b951005a85e8a1f50c03c71ba8bed210f5989423b74c4540d"
+    },
+    {
+      "path": "web/src/features/keys/components/api-keys-mutate-drawer.tsx",
+      "status": "matches-remote",
+      "localSha256": "cb53b912ac4a90805daa72f8e8afd41035e32985baa790feb5e6130a90468161",
+      "remoteSha256": "cb53b912ac4a90805daa72f8e8afd41035e32985baa790feb5e6130a90468161"
+    },
+    {
+      "path": "web/src/features/keys/components/api-keys-delete-dialog.tsx",
+      "status": "matches-remote",
+      "localSha256": "3ce55ed2aa8a0b71685bece614cc0979b6a1ffde4469ce8753a085e1941a9417",
+      "remoteSha256": "3ce55ed2aa8a0b71685bece614cc0979b6a1ffde4469ce8753a085e1941a9417"
+    },
+    {
+      "path": "web/src/lib/http-client.ts",
+      "status": "matches-remote",
+      "localSha256": "40031b5450c424fc20e1fe3b54c933bb65b5ca5ee654fa06a627fa1264f4985c",
+      "remoteSha256": "40031b5450c424fc20e1fe3b54c933bb65b5ca5ee654fa06a627fa1264f4985c"
+    },
+    {
+      "path": "controller/relay.go",
+      "status": "matches-remote",
+      "localSha256": "ebce879d61aba2e8c49599bac02d4cfd7898f721fb31236cb999fffc6f16fd75",
+      "remoteSha256": "ebce879d61aba2e8c49599bac02d4cfd7898f721fb31236cb999fffc6f16fd75"
+    }
+  ],
+  "reviewScope": "仅核对课程实际引用文件；不代表全仓审计。"
+}
