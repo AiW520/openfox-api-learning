@@ -3,7 +3,7 @@ import starlight from '@astrojs/starlight';
 import { readFileSync } from 'node:fs';
 const courses = JSON.parse(readFileSync(new URL('./src/data/projects.json', import.meta.url), 'utf8'));
 
-const base = process.env.SITE_BASE || '/openfox-API';
+const base = process.env.SITE_BASE || '/openfox-api-learning';
 function publicAssetBase() {
   return tree => {
     const walk = node => {
